@@ -1,0 +1,60 @@
+:root {
+  --bg-dark: #020617;
+  --text-light: #e5e7eb;
+  --accent: #6366f1;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+.top-nav {
+  padding: 1rem;
+  background: #020617;
+  border-bottom: 1px solid #334155;
+}
+
+.top-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-button {
+  padding: 0.5rem 1rem;
+  background: var(--accent);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.auth-view {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  padding: 0.6rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
